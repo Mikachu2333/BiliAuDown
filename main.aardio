@@ -33,6 +33,7 @@ var m2f_info = tooltipCtrl.addTool(mainForm.m2f,'将程序所在目录中的所�
 var sd_info = tooltipCtrl.addTool(mainForm.startdown,'开始下载视频/音频\n\nStart downloading the file.')
 
 mainForm.startdown.oncommand = function(id,event){
+	mainForm.edit.text = ""
 	var argvs = ""
 	if(mainForm.ao.checked){argvs += mainForm.ao.text}
 	if(mainForm.ss.checked){argvs += mainForm.ss.text}
