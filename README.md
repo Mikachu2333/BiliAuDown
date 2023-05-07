@@ -9,12 +9,12 @@ A project to down audio with cover from bilibili.com via BBdown and FFmpeg proje
 
 # 使用说明 (Usage)
 
-1.需要在同目录下有bbdown以及ffmpeg的可执行文件。
+1.需要在同目录下有**BBDown**以及**FFmpeg**的可执行文件。
 
 1.Need "bbdown.exe" and "ffmpeg.exe" in the same dir of the program.
  
  
-2.所有选项均为可选，鼠标悬停时有相关解释。
+2.所有选项均为可选，**鼠标悬停时有相关解释**。
 
 2.All options are optional and are explained when the mouse is hovered over.
  
