@@ -25,13 +25,14 @@ A project to down audio with cover from bilibili.com via BBdown and FFmpeg proje
 
 # 下载的版本选择 (Choose a version to Download)
 
-1.如果您是第一次使用，**请下载Full.7z并直接解压**。点击BiliAuDown即可使用。
+1.初次请**下载全部的3个文件并校验其sha1值**。
 
-1.If this is your first time using it, **please download Full.7z** and unzip it directly. Click BiliAuDown to use.
- 
-2.如果您只是希望更新，您**只需要下载BiliAuDown并覆盖原来的版本**即可。
+1.For the first time, please **download all 3 files and check their sha1 values**. 
 
-2.If you just want to update, you just need to **download BiliAuDown and overwrite the original version**.
+
+2.升级仅需下载BiliAuDown.exe并覆盖旧版本文件。
+
+2.To update, just download **BiliAuDown.exe** and _overwrite_ the old version.
  
  
 # 注意 (Warning)
