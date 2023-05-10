@@ -30,7 +30,7 @@ A project to down audio with cover from bilibili.com via BBdown and FFmpeg proje
 1.For the first time, please **download all 3 files and check their sha1 values**. 
 
 
-2.升级仅需下载BiliAuDown.exe并覆盖旧版本文件。
+2.升级仅需下载**BiliAuDown.exe并覆盖旧版本文件**。
 
 2.To update, just download **BiliAuDown.exe** and _overwrite_ the old version.
  
