@@ -1,9 +1,9 @@
 # BiliAuDown
-[BBDown](https://github.com/nilaoda/BBDown)
+致谢（Thanks）：[BBDown](https://github.com/nilaoda/BBDown)
 
-利用BBDown以及FFmpeg下载哔哩哔哩的音频并将其转换为MP3或者flac格式。基于aardio语言。
+利用BBDown以及FFmpeg下载哔哩哔哩的音频/视频并将其转换为MP3或者flac格式。基于aardio语言。
 
-A project to down audio with cover from bilibili.com via BBdown and FFmpeg project, and convert the m4a to mp3/flac format. (Program language is aardio)
+A project to download audio/video with cover from bilibili.com via BBdown and FFmpeg project easily, and convert the m4a audio to mp3/flac format. (by aardio)
 
 ![图片](https://user-images.githubusercontent.com/63829496/236662506-c2dcbd10-f295-4a99-a844-bd3c8eb7a0b4.png)
 
