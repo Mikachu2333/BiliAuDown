@@ -5,7 +5,8 @@
 
 A project to download audio/video with cover from bilibili.com via BBdown and FFmpeg project easily, and convert the m4a audio to mp3/flac format. (by aardio)
 
-![图片](https://user-images.githubusercontent.com/63829496/236662506-c2dcbd10-f295-4a99-a844-bd3c8eb7a0b4.png)
+![图片](https://github.com/Mikachu2333/BiliAuDown/assets/63829496/ecfdd824-c43e-45c8-a769-86ddd577bc4f)
+
 
 # 使用说明 (Usage)
 
@@ -36,14 +37,15 @@ A project to download audio/video with cover from bilibili.com via BBdown and FF
  
  
 # 注意 (Warning)
-**在转换m4a格式的文件完成之后，程序将会自动删除所有原m4a格式的文件，如需备份请及早留存！**
+**请提前选择是否自动删除文件以免数据丢失！请勿将m4a文件备份在软件的存放目录！ **
 
-**在转换m4a格式的文件完成之后，程序将会自动删除所有原m4a格式的文件，如需备份请及早留存！**
+**Please choose in advance whether to delete files automatically to avoid data loss! Never backup the .m4a file in the software storage directory! **
 
-**在转换m4a格式的文件完成之后，程序将会自动删除所有原m4a格式的文件，如需备份请及早留存！**
+**请提前选择是否自动删除文件以免数据丢失！请勿将m4a文件备份在软件的存放目录！ **
 
-**After the conversion of m4a files, the program will automatically DELETE all the original m4a files, backup before convert if you need it!**
+**Please choose in advance whether to delete files automatically to avoid data loss! Never backup the .m4a file in the software storage directory! **
 
-**After the conversion of m4a files, the program will automatically DELETE all the original m4a files, backup before convert if you need it!**
+**请提前选择是否自动删除文件以免数据丢失！请勿将m4a文件备份在软件的存放目录！ **
 
-**After the conversion of m4a files, the program will automatically DELETE all the original m4a files, backup before convert if you need it!**
+**Please choose in advance whether to delete files automatically to avoid data loss! Never backup the .m4a file in the software storage directory! **
+
