@@ -37,15 +37,16 @@ A project to download audio/video with cover from bilibili.com via BBdown and FF
  
  
 # 注意 (Warning)
-**请提前选择是否自动删除文件以免数据丢失！请勿将m4a文件备份在软件的存放目录！ **
 
-**Please choose in advance whether to delete files automatically to avoid data loss! Never backup the .m4a file in the software storage directory! **
+**请提前选择是否自动删除文件以免数据丢失！请勿将m4a文件备份在软件的存放目录！**
 
-**请提前选择是否自动删除文件以免数据丢失！请勿将m4a文件备份在软件的存放目录！ **
+**Please choose in advance whether to delete files automatically to avoid data loss! Never backup the .m4a file in the software storage directory!**
 
-**Please choose in advance whether to delete files automatically to avoid data loss! Never backup the .m4a file in the software storage directory! **
+**请提前选择是否自动删除文件以免数据丢失！请勿将m4a文件备份在软件的存放目录！**
 
-**请提前选择是否自动删除文件以免数据丢失！请勿将m4a文件备份在软件的存放目录！ **
+**Please choose in advance whether to delete files automatically to avoid data loss! Never backup the .m4a file in the software storage directory!**
 
-**Please choose in advance whether to delete files automatically to avoid data loss! Never backup the .m4a file in the software storage directory! **
+**请提前选择是否自动删除文件以免数据丢失！请勿将m4a文件备份在软件的存放目录！**
+
+**Please choose in advance whether to delete files automatically to avoid data loss! Never backup the .m4a file in the software storage directory!**
 
