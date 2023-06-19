@@ -19,7 +19,7 @@ tip={cls="static";text="警告 WARN";left=222;top=79;right=303;bottom=106;align=
 /*}}*/
 
 if ((!io.exist("ffmpeg.exe")) or (!io.exist("bbdown.exe"))){
-	win.msgboxTimeout('Version 1.0.1.27\n请将FFmpeg与BBDown放置于程序所在目录\n\nPlease place "ffmpeg" and "bbdown"\nin the same directory as the program.',"Tips",5000)
+	win.msgboxTimeout('Version 1.0.1.30\n请将FFmpeg与BBDown放置于程序所在目录\n\nPlease place "ffmpeg" and "bbdown"\nin the same directory as the program.',"Tips",5000)
 }
 
 var tooltipCtrl = win.ui.tooltip(mainForm)
@@ -29,10 +29,10 @@ var ao_info = tooltipCtrl.addTool(mainForm.ao,'是否仅下载音频\n\nONLY dow
 var sa_info = tooltipCtrl.addTool(mainForm.fh,'是否强制使用http协议而非https协议\n\nWhether to use "Http:\\\\" rather than\n"Https:\\\\" to download resources.')
 var ss_info = tooltipCtrl.addTool(mainForm.ss,'是否跳过下载原字幕（如果有）\n\nWhether to skip downloading\nthe ORIGIONAL subtitles. (If has)')
 var ia_info = tooltipCtrl.addTool(mainForm.ia,'是否交互式选择视频质量并下载\n\nWhether to interactively\nselect file quality and download.')
-var m2m_info = tooltipCtrl.addTool(mainForm.m2m,'将程序所在目录中的所有m4a文件转换为mp3格式\n并删除原m4a文件\n\nConvert all "m4a" format files to "mp3" format\nand DELETE the original.')
-var m2f_info = tooltipCtrl.addTool(mainForm.m2f,'将程序所在目录中的所有m4a文件转换为flac格式\n并删除原m4a文件\n\nConvert all "m4a" format files to "flac" format\nand DELETE the original.')
+var m2m_info = tooltipCtrl.addTool(mainForm.m2m,'将程序所在目录中的所有m4a文件转换为mp3格式\n\nConvert all "m4a" format files to "mp3" format.')
+var m2f_info = tooltipCtrl.addTool(mainForm.m2f,'将程序所在目录中的所有m4a文件转换为flac格式\n\nConvert all "m4a" format files to "flac" format.')
 var sd_info = tooltipCtrl.addTool(mainForm.startdown,'开始下载视频/音频\n\nStart downloading the file.')
-var ad_info = tooltipCtrl.addTool(mainForm.Auto_Delete,'是否在格式转换完毕后自动删除原文件\n\nWhether to Auto Delete the Original file after format convert.')
+var ad_info = tooltipCtrl.addTool(mainForm.Auto_Delete,'是否在格式转换完毕后自动删除原文件\n\nWhether to AUTO DELETE the ORIGINAL file after convert.')
 
 mainForm.startdown.oncommand = function(id,event){
 	var argvs = mainForm.edit.text + " "
@@ -57,6 +57,7 @@ switch_file = function(out_format){
 			}
 		},
 	)
+	io.open()
 	for i,j in file_list{
 		before = tostring(j)
 		after = string.replace(before,"@m4a",out_format,)
@@ -65,11 +66,15 @@ switch_file = function(out_format){
 		}else {
 			info = """ """
 		}
-		process.executeWait("ffmpeg.exe","-i """ + before + info + after + """")
+		var prcshwnd = process("""" + io._exedir +"ffmpeg.exe""","-i """ + before + info + after + """")
+		while(not prcshwnd.waitOne()){
+			thread.delay(1000)
+		}
 		if(mainForm.Auto_Delete.checked == true){
 			fsys.delete(before)
 		}
 	}
+	io.close()
 	win.msgboxTimeout("Complete","Success",1000)
 }
 
