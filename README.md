@@ -5,7 +5,7 @@
 
 A project to download audio/video with cover from bilibili.com via BBdown and FFmpeg project easily, and convert the m4a audio to mp3/flac format. (by aardio)
 
-![图片](https://github.com/Mikachu2333/BiliAuDown/assets/63829496/ecfdd824-c43e-45c8-a769-86ddd577bc4f)
+<img width="482" alt="06月23日11时09分47秒" src="https://github.com/Mikachu2333/BiliAuDown/assets/63829496/094fd9ca-0508-401e-a92a-560f983e38cf">
 
 
 # 使用说明 (Usage)
