@@ -20,6 +20,7 @@ tip={cls="static";text="警告 WARN";left=222;top=79;right=303;bottom=106;align=
 
 if ((!io.exist("ffmpeg.exe")) or (!io.exist("bbdown.exe"))){
 	win.msgboxTimeout('Version 1.0.1.31\n请将FFmpeg与BBDown放置于程序所在目录\n\nPlease place "ffmpeg" and "bbdown"\nin the same directory as the program.',"Tips",5000)
+	mainForm.close()
 }
 
 var tooltipCtrl = win.ui.tooltip(mainForm)
